@@ -1,27 +1,27 @@
-ºÃ¼¸´ÎÏëÑ§Ï°Git¶¼×îÖÕÒòÎª»ŞÉ¬ÄÑ¶®·ÅÆú£¬¿´ÁËÁÎÀÏÊ¦µÄ²©¿Í£¬ËäÈ»²»ÖÁÓÚÍêÈ«Àí½â£¬µ«»¹ÊÇÑ§µ½ºÜ¶à£¬Àí½â²¢ÕûÀí²¿·ÖÈçÏÂ£¬ºóĞø»áÉîÈëÑ§Ï°¡£
+ï»¿å¥½å‡ æ¬¡æƒ³å­¦ä¹ Gitéƒ½æœ€ç»ˆå› ä¸ºæ™¦æ¶©éš¾æ‡‚æ”¾å¼ƒï¼Œçœ‹äº†å»–è€å¸ˆçš„åšå®¢ï¼Œè™½ç„¶ä¸è‡³äºå®Œå…¨ç†è§£ï¼Œä½†è¿˜æ˜¯å­¦åˆ°å¾ˆå¤šï¼Œç†è§£å¹¶æ•´ç†éƒ¨åˆ†å¦‚ä¸‹ï¼Œåç»­ä¼šæ·±å…¥å­¦ä¹ ã€‚
 
-1.±¾µØ
-git init		³õÊ¼»¯git²Ö¿â
-git add file		Ìí¼ÓfileÖÁÔİ´æÇø
-git status		²é¿´×´Ì¬
-git commit -m ''	Ìá½»²¢ÊäÈëÌá½»ĞÅÏ¢
-git log			²é¿´commit¼ÇÂ¼
-git branch		²é¿´·ÖÖ§Çé¿ö£¬ºó¼Ó²ÎÊı¿ÉÌí¼Ó·ÖÖ§
-git branch -d a 	É¾³ıa·ÖÖ§
-git checkout a 		ÇĞ»»µ½a·ÖÖ§
-git checkout -b a	Ìí¼Ó·ÖÖ§a²¢ÇĞ»»½øa£¬= git branch a & git checkout a
-git merge a		°Ña·ÖÖ§µÄ´úÂëºÏ²¢¹ıÀ´
-git tag v1.0 		ĞÂ½¨v1.0±êÇ©
+1.æœ¬åœ°
+git init		åˆå§‹åŒ–gitä»“åº“
+git add file		æ·»åŠ fileè‡³æš‚å­˜åŒº
+git status		æŸ¥çœ‹çŠ¶æ€
+git commit -m ''	æäº¤å¹¶è¾“å…¥æäº¤ä¿¡æ¯
+git log			æŸ¥çœ‹commitè®°å½•
+git branch		æŸ¥çœ‹åˆ†æ”¯æƒ…å†µï¼ŒååŠ å‚æ•°å¯æ·»åŠ åˆ†æ”¯
+git branch -d a 	åˆ é™¤aåˆ†æ”¯
+git checkout a 		åˆ‡æ¢åˆ°aåˆ†æ”¯
+git checkout -b a	æ·»åŠ åˆ†æ”¯aå¹¶åˆ‡æ¢è¿›aï¼Œ= git branch a & git checkout a
+git merge a		æŠŠaåˆ†æ”¯çš„ä»£ç åˆå¹¶è¿‡æ¥
+git tag v1.0 		æ–°å»ºv1.0æ ‡ç­¾
 
-2.Ô¶³Ì
-git remote add origin <remote URL>	±¾µØ²Ö¿â¹ØÁªµ½Ô¶¶ËURLËùÔÚ²Ö¿â£¬²¢ÎªÔ¶¶Ë²Ö¿âÃüÃûÎªorigin£¨Ò²¿ÉÓÃÆäËûÃû×Ö£©
-git config --global user.name ''	ÉèÖÃ×Ô¼ºµÄÓÃ»§Ãû
-git config --global user.email ''	ÉèÖÃ×Ô¼ºµÄÓÊÏä
-git pull origin master			½«Ô¶¶Ëorigin´úÂëÀ­µ½±¾µØmaster·ÖÖ§
-git push origin master			½«±¾µØmaster·ÖÖ§´úÂëÍÆµ½Ô¶¶Ëorigin
-git clone <HTTP URLs/remote URL>	¸´ÖÆÔ¶¶ËÏîÄ¿µ½±¾µØ
+2.è¿œç¨‹
+git remote add origin <remote URL>	æœ¬åœ°ä»“åº“å…³è”åˆ°è¿œç«¯URLæ‰€åœ¨ä»“åº“ï¼Œå¹¶ä¸ºè¿œç«¯ä»“åº“å‘½åä¸ºoriginï¼ˆä¹Ÿå¯ç”¨å…¶ä»–åå­—ï¼‰
+git config --global user.name ''	è®¾ç½®è‡ªå·±çš„ç”¨æˆ·å
+git config --global user.email ''	è®¾ç½®è‡ªå·±çš„é‚®ç®±
+git pull origin master			å°†è¿œç«¯originä»£ç æ‹‰åˆ°æœ¬åœ°masteråˆ†æ”¯
+git push origin master			å°†æœ¬åœ°masteråˆ†æ”¯ä»£ç æ¨åˆ°è¿œç«¯origin
+git clone <HTTP URLs/remote URL>	å¤åˆ¶è¿œç«¯é¡¹ç›®åˆ°æœ¬åœ°
 
-3.½ø½×
-git config --global alias.co commit			½«commitÉèÖÃ±ğÃûco
-git config --global alias.psm 'push origin master'	½«push origin masterÉèÖÃ±ğÃûÎªpsm
-git diff						ÎÄ¼şĞŞ¸Äºó£¨Î´add£©²é¿´²»Í¬
+3.è¿›é˜¶
+git config --global alias.co commit			å°†commitè®¾ç½®åˆ«åco
+git config --global alias.psm 'push origin master'	å°†push origin masterè®¾ç½®åˆ«åä¸ºpsm
+git diff						æ–‡ä»¶ä¿®æ”¹åï¼ˆæœªaddï¼‰æŸ¥çœ‹ä¸åŒ
